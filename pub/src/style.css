@@ -89,3 +89,37 @@ button {
     font-family: "Inter", serif;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .text-row-cols {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        padding-left: 4vh;
+        padding-right: 4vh;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .text-row-cols {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        padding-left: 4vh;
+        padding-right: 4vh;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* the code will work  */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* the code will work  */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* the code will work */
+}
